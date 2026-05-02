@@ -1,0 +1,123 @@
+{
+  "$schema": "cpms-architect-workflow-state/v1",
+  "project": "CPMS Platform Architecture",
+  "created_at": "",
+  "last_updated": "",
+  "current_phase": "intake",
+  "design_scope": null,
+  "scope_name": null,
+
+  "phases": {
+    "intake": {
+      "status": "pending",
+      "started_at": null,
+      "completed_at": null,
+      "approved_at": null,
+      "requirements_files_read": [],
+      "reference_docs_available": [],
+      "clarifying_questions_asked": false,
+      "clarifying_answers_received": false,
+      "notes": ""
+    },
+    "c4_level_1_context": {
+      "status": "locked",
+      "started_at": null,
+      "completed_at": null,
+      "approved_at": null,
+      "output_files": [],
+      "decisions_recorded": [],
+      "open_questions": [],
+      "notes": ""
+    },
+    "c4_level_2_container": {
+      "status": "locked",
+      "started_at": null,
+      "completed_at": null,
+      "approved_at": null,
+      "output_files": [],
+      "decisions_recorded": [],
+      "open_questions": [],
+      "notes": ""
+    },
+    "c4_level_3_component": {
+      "status": "locked",
+      "started_at": null,
+      "completed_at": null,
+      "approved_at": null,
+      "output_files": [],
+      "decisions_recorded": [],
+      "open_questions": [],
+      "notes": ""
+    },
+    "c4_level_4_data_models": {
+      "status": "locked",
+      "started_at": null,
+      "completed_at": null,
+      "approved_at": null,
+      "output_files": [],
+      "decisions_recorded": [],
+      "open_questions": [],
+      "notes": ""
+    },
+    "api_design": {
+      "status": "locked",
+      "started_at": null,
+      "completed_at": null,
+      "approved_at": null,
+      "output_files": [],
+      "decisions_recorded": [],
+      "open_questions": [],
+      "notes": ""
+    }
+  },
+
+  "decisions": {
+    "tech_stack_confirmed": false,
+    "ocpp_versions": [],
+    "ocpi_versions": [],
+    "ocpi_required": false,
+    "multi_tenant": null,
+    "tenant_isolation_strategy": null,
+    "target_scale_charge_points_launch": null,
+    "target_scale_charge_points_3yr": null,
+    "target_aws_regions": [],
+    "multi_region_active_active": null,
+    "sla_uptime_percent": null,
+    "sla_max_transaction_latency_ms": null,
+    "sla_max_telemetry_delay_ms": null,
+    "smart_charging_type": null,
+    "payment_gateway": null,
+    "authentication_methods": [],
+    "service_mesh": null,
+    "k8s_manifest_tool": null,
+    "ci_cd_platform": null,
+    "telemetry_retention_days_hot": null,
+    "telemetry_retention_days_cold": null,
+    "plug_and_charge_required": false,
+    "ocpi_hub_topology": null,
+    "websocket_peak_connections": null,
+    "websocket_peak_messages_per_sec": null,
+    "ui_scope": {
+      "operator_dashboard": null,
+      "driver_mobile_app": null,
+      "fleet_portal": null,
+      "noc_dashboard": null,
+      "include_frontend_breakdown": null
+    },
+    "custom_decisions": {}
+  },
+
+  "actors": [],
+  "external_systems": [],
+  "services": [],
+  "data_stores": [],
+  "message_topics": [],
+  "grpc_services": [],
+  "graphql_schemas": [],
+
+  "adr_index": [],
+
+  "features": {},
+
+  "learnings": []
+}

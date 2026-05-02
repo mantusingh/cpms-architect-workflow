@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(**)",
+      "Write(output/**)",
+      "Write(workflow-state.json)",
+      "Write(docs/learnings/**)",
+      "Write(docs/patterns/**)",
+      "Bash(find *)",
+      "Bash(ls *)",
+      "Bash(date)"
+    ],
+    "deny": [
+      "Bash(rm *)",
+      "Bash(git push *)"
+    ]
+  },
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/Users/msd/projects/cpms-architect"
+      ],
+      "description": "Local filesystem access scoped to this project"
+    }
+  },
+  "env": {
+    "CPMS_PROJECT_ROOT": "/Users/msd/projects/cpms-architect",
+    "CPMS_WORKFLOW_STATE": "/Users/msd/projects/cpms-architect/workflow-state.json"
+  }
+}
